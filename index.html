@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuto Algorithme l'ecole du web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="global-container">
+        <nav class="side-nav">
+            <div class="nav-logo">
+                <img src="images/logo.png" alt="logo">
+                <h1>Users</h1>
+            </div>
+            <a href="#" class="bloc-link">
+                <i class="fa-solid fa-table-columns"></i>
+                <span class="nav-links">Dashboard</span>
+            </a>
+            <a href="#" class="bloc-link">
+                <i class="fa-regular fa-comment"></i>
+                <span class="nav-links">Messenger</span>
+            </a>
+            <a href="#" class="bloc-link active">
+                <i class="fa-solid fa-database"></i>
+                <span class="nav-links">Database</span>
+            </a>
+            <a href="#" class="bloc-link">
+                <i class="fa-regular fa-calendar"></i>
+                <span class="nav-links">Calendar</span>
+            </a>
+        </nav>
+
+        <main class="main-content">
+            <div class="input-control">
+                <label for="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </label>
+                <input type="text id="search" placeholder="Search for an user">
+            </div>
+
+            <h2 class="main-title">Database Results</h2>
+            <div class="table">
+                <h3 class="table-title">Name</h3>
+                <h3 class="table-title">Email</h3>
+                <h3 class="table-title">Phone</h3>
+            </div>
+            <div class="table-results">
+                <div class="table-item">
+                    <div class="container-img">
+                        <img src="images/user-6380868_640.png" alt="user1">
+                        <p class="name">Test</p>
+                    </div>
+                    <p class="email">Mail</p>
+                    <p class="phone">Phone</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
